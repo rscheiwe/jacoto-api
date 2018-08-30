@@ -1,0 +1,188 @@
+﻿title,image,summary,slug,syllabus,affiliates,tags,tracks,level
+Excel Fundamentals,,"<p>Spreadsheets are used across all business to store, analyze, and present information. Microsoft Excel is hands down the most common spreadsheet tool, and Excel skills will help you in just about any job. In this course, you&#39;ll start by learning the basics, like how to navigate a speadsheet, use shortcuts, and perform calculations. Then you&#39;ll dive deeper into more complex formulas and functions, like vlookups, pivot tables, and creating visualizations.  </p>
+",learn-excel-cx30,,[],[],"['All', 'Non-Tech', 'Data Analytics', 'Digital Marketing']",beginner
+Intro to Machine Learning,https://lh4.ggpht.com/iH59AlLRPUJvthBY2aYpNo-qvIB0wsh7OXNAxNgBciwkUa0lLhxzvYswHVJjG012yD5eQgbWYmcHyDczMg=s0#w=1724&h=1060,"<p>Machine Learning is a first-class ticket to the most exciting careers in data analysis today. As data sources proliferate along with the computing power to process them, going straight to the data is one of the most straightforward ways to quickly gain insights and make predictions.  </p>
+
+<p>Machine learning brings together computer science and statistics to harness that predictive power. Itâ€™s a must-have skill for all aspiring data analysts and data scientists, or anyone else who wants to wrestle all that raw data into refined trends and predictions.</p>
+
+<p>This is a class that will teach you the end-to-end process of investigating data through a machine learning lens. It will teach you how to extract and identify useful features that best represent your data, a few of the most important machine learning algorithms, and how to evaluate the performance of your machine learning algorithms.</p>
+
+<p>This course is also a part of our <a href=""https://www.udacity.com/course/data-analyst-nanodegree--nd002"">Data Analyst</a> Nanodegree.</p>
+",intro-to-machine-learning--ud120,"<p>Youâ€™ll learn how to start with a question and/or a dataset, and use machine learning to turn them into insights. </p>
+
+<h3>Lessons 1-4: Supervised Classification</h3>
+
+<p><strong>Naive Bayes:</strong> We jump in headfirst, learning perhaps the worldâ€™s greatest algorithm for classifying text.</p>
+
+<p><strong>Support Vector Machines (SVMs):</strong> One of the top 10 algorithms in machine learning, and a must-try for many classification tasks.  What makes it special?  The ability to generate new features independently and on the fly.</p>
+
+<p><strong>Decision Trees:</strong> Extremely straightforward, often just as accurate as an SVM but (usually) way faster.  The launch point for more sophisticated methods, like random forests and boosting.</p>
+
+<h3>Lesson 5: Datasets and Questions</h3>
+
+<p>Behind any great machine learning project is a great dataset that the algorithm can learn from.  We were inspired by a treasure trove of email and financial data from the Enron corporation, which would normally be strictly confidential but became public when the company went bankrupt in a blizzard of fraud.  Follow our lead as we wrestle this dataset into a machine-learning-ready format, in anticipation of trying to predict cases of fraud.</p>
+
+<h3>Lesson 6 and 7: Regressions and Outliers</h3>
+
+<p>Regressions are some of the most widely used machine learning algorithms, and rightly share prominence with classification.  Whatâ€™s a fast way to make mistakes in regression, though?  Have troublesome outliers in your data.  Weâ€™ll tackle how to identify and clean away those pesky data points.</p>
+
+<h3>Lesson 8: Unsupervised Learning</h3>
+
+<p><strong>K-Means Clustering:</strong> The flagship algorithm when you donâ€™t have labeled data to work with, and a quick method for pattern-searching when approaching a dataset for the first time.</p>
+
+<h3>Lessons 9-12: Features, Features, Features</h3>
+
+<p><strong>Feature Creation:</strong> Taking your human intuition about the world and turning it into data that a computer can use.</p>
+
+<p><strong>Feature Selection:</strong> Einstein said it best: make everything as simple as possible, and no simpler.  In this case, that means identifying the most important features of your data.</p>
+
+<p><strong>Principal Component Analysis:</strong> A more sophisticated take on feature selection, and one of the crown jewels of unsupervised learning.</p>
+
+<p><strong>Feature Scaling:</strong> Simple tricks for making sure your data and your algorithm play nicely together.<br>
+Learning from Text: More information is in text than any other format, and there are some effective but simple tools for extracting that information.</p>
+
+<h3>Lessons 13-14: Validation and Evaluation</h3>
+
+<p><strong>Training/testing data split:</strong> How do you know that what youâ€™re doing is working?  You donâ€™t, unless you validate.  The train-test split is simple to do, and the gold standard for understanding your results.</p>
+
+<p><strong>Cross-validation:</strong> Take the training/testing split and put it on steroids.  Validate your machine learning results like a pro.</p>
+
+<p><strong>Precision, recall, and F1 score:</strong>  After all this data-driven work, quantify your results with metrics tailored to what is most important to you.</p>
+
+<h3>Lesson 15: Wrapping it all Up</h3>
+
+<p>We take a step back and review what weâ€™ve learned, and how it all fits together.  </p>
+
+<h3>Projects</h3>
+
+<p>Mini-project at the end of each lesson</p>
+
+<p><strong>Final project:</strong> searching for signs of corporate fraud in Enron data</p>
+",[],[],"['All', 'Data Science', 'Machine Learning']",intermediate
+Cyber-Physical Systems Design & Analysis,https://lh3.googleusercontent.com/hcWZo9c1SlolnBIjWUfUc8wLFhtnARWcKLrpxH_Dm0AVsHo_GoR_J8WjpVk-mE5-xxm7qwxHGTlcvqSUqGM=s0#w=1750&h=1076,"<p>Cyber-physical systems, such as automobiles, cars, and medical devices, comprise both a physical part and a software part, whereby the physical part of the system sends information about itself to the software part, and the software sends information, usually in the form of commands, to the physical part. </p>
+
+<p>Physical systems have &quot;a life of their own,&quot; and they can often harm operators and/or cost a fortune to repair, the development of programs that control these systems cannot rely on &quot;trial and error,&quot; and they must consider in-depth the role of the human operator. </p>
+
+<p>This course introduces the principles, tools, models, and processes essential to cyber-physical system development, such as model-based development methods, basics of feedback for task scheduling, modern verification, and validation techniques, and their integration in today&#39;s industrial development processes.</p>
+",cyber-physical-systems-design-analysis--ud9876,"<h1>CPS design</h1>
+
+<ul>
+<li>Models&#39;</li>
+<li>Low-level control</li>
+<li>Mid- and High-level automation</li>
+</ul>
+
+<h1>CPS environment</h1>
+
+<ul>
+<li>Humans and CPS</li>
+<li>Hardware-software co-design</li>
+<li>Sensors, actuators, and processors</li>
+</ul>
+
+<h1>CPS engineering</h1>
+
+<ul>
+<li>General principles</li>
+<li>Architecture and Design Language</li>
+<li>Formal methods for Verification and Validation</li>
+</ul>
+","[{'key': 'gt', 'name': 'Georgia Institute of Technology', 'image': 'https://s3-us-west-1.amazonaws.com/udacity-content/partner/logo-color-georgiatech-f6c90b2.svg'}]",[],[],advanced
+Machine Learning for Trading,https://lh3.googleusercontent.com/sstOlcko2U-Ah4Ot8xu0I-6JLpzHVlvwwjCNQ9fq7GW6YOKxdii1gxgUs44bt5qsy5qTT7kDCRu2GHiFrw=s0#w=1355&h=776,"<p>This course introduces students to the real world challenges of implementing machine learning based trading strategies including the algorithmic steps from information gathering to market orders. The focus is on how to apply probabilistic machine learning approaches to trading decisions. We consider statistical approaches like linear regression, KNN and regression trees and how to apply them to actual stock trading situations.</p>
+",machine-learning-for-trading--ud501,"<p>This course is composed of three <em>mini-courses</em>:</p>
+
+<ul>
+<li>Mini-course 1: Manipulating Financial Data in Python</li>
+<li>Mini-course 2: Computational Investing</li>
+<li>Mini-course 3: Machine Learning Algorithms for Trading</li>
+</ul>
+
+<p>Each mini-course consists of about 7-10 short lessons. Assignments and projects are interleaved.</p>
+
+<p><strong>Fall 2015 OMS students</strong>: There will be two tests - one midterm after mini-course 2, and one final exam.</p>
+","[{'key': 'gt', 'name': 'Georgia Institute of Technology', 'image': 'https://s3-us-west-1.amazonaws.com/udacity-content/partner/logo-color-georgiatech-f6c90b2.svg'}]","['machine learning', 'investment', 'finance', 'algorithmic trading']","['All', 'Georgia Tech Masters in CS', 'Machine Learning']",intermediate
+Machine Learning: Unsupervised Learning,https://s3-us-west-1.amazonaws.com/udacity-content/course/images/ud741-0c56777.jpg,"<p><em>This is the second course in the 3-course Machine Learning Series and is offered at Georgia Tech as CS7641. Taking this class here does not earn Georgia Tech credit.</em></p>
+
+<p>Ever wonder how Netflix can predict what movies you&#39;ll like? Or how Amazon knows what you want to buy before you do? The answer can be found in Unsupervised Learning!</p>
+
+<p>Closely related to pattern recognition, Unsupervised Learning is about analyzing data and looking for patterns. It is an extremely powerful tool for identifying structure in data. This course focuses on how you can use Unsupervised Learning approaches -- including randomized optimization, clustering, and feature selection and transformation -- to find structure in unlabeled data. </p>
+
+<p><strong>Series Information</strong>: Machine Learning is a graduate-level series of 3 courses, covering the area of Artificial Intelligence concerned with computer programs that modify and improve their performance through experiences. </p>
+
+<p>The entire series is taught as an engaging dialogue between two eminent Machine Learning professors and friends: Professor Charles Isbell (Georgia Tech) and Professor Michael Littman (Brown University).</p>
+",machine-learning-unsupervised-learning--ud741,"<h3>Lesson 1: Randomized optimization</h3>
+
+<ul>
+<li>Optimization, randomized</li>
+<li>Hill climbing</li>
+<li>Random restart hill climbing</li>
+<li>Simulated annealing</li>
+<li>Annealing algorithm</li>
+<li>Properties of simulated annealing</li>
+<li>Genetic algorithms</li>
+<li>GA skeleton</li>
+<li>Crossover example</li>
+<li>What have we learned</li>
+<li>MIMIC</li>
+<li>MIMIC: A probability model</li>
+<li>MIMIC: Pseudo code</li>
+<li>MIMIC: Estimating distributions</li>
+<li>Finding dependency trees</li>
+<li>Probability distribution</li>
+</ul>
+
+<h3>Lesson 2: Clustering</h3>
+
+<ul>
+<li>Clustering and expectation maximization</li>
+<li>Basic clustering problem</li>
+<li>Single linkage clustering (SLC)</li>
+<li>Running time of SLC</li>
+<li>Issues with SLC</li>
+<li>K-means clustering</li>
+<li>K-means in Euclidean space</li>
+<li>K-means as optimization</li>
+<li>Soft clustering</li>
+<li>Maximum likelihood Gaussian</li>
+<li>Expectation Maximization (EM)</li>
+<li>Impossibility theorem</li>
+</ul>
+
+<h3>Lesson 3: Feature Selection</h3>
+
+<ul>
+<li>Algorithms</li>
+<li>Filtering and Wrapping</li>
+<li>Speed</li>
+<li>Searching</li>
+<li>Relevance</li>
+<li>Relevance vs. Usefulness </li>
+</ul>
+
+<h3>Lesson 4: Feature Transformation</h3>
+
+<ul>
+<li>Feature Transformation</li>
+<li>Words like Tesla</li>
+<li>Principal Components Analysis</li>
+<li>Independent Components Analysis</li>
+<li>Cocktail Party Problem</li>
+<li>Matrix</li>
+<li>Alternatives</li>
+</ul>
+
+<h3>Lesson 5: Information Theory</h3>
+
+<ul>
+<li>History
+-Sending a Message</li>
+<li>Expected size of the message</li>
+<li>Information between two variables</li>
+<li>Mutual information</li>
+<li>Two Independent Coins</li>
+<li>Two Dependent Coins</li>
+<li>Kullback Leibler Divergence</li>
+</ul>
+
+<h3>Unsupervised Learning Project</h3>
+","[{'key': 'gt', 'name': 'Georgia Institute of Technology', 'image': 'https://s3-us-west-1.amazonaws.com/udacity-content/partner/logo-color-georgiatech-f6c90b2.svg'}]",[],['Machine Learning'],intermediate
