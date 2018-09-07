@@ -1,11 +1,12 @@
 
 class Query
 
-  attr_accessor :term, :topic
+  attr_accessor :term, :topic, :price
 
   def initialize(options = {})
     @term = options[:term] || ''
     @topic = options[:topic] || ''
+    @price = options[:price] || ''
   end
 
   def filter_courses
