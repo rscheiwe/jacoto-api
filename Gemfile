@@ -14,12 +14,13 @@ gem 'puma', '~> 3.11'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 gem 'smarter_csv'
 gem 'csv'
 
 gem 'active_model_serializers'
 gem 'rack-cors'
+gem "jwt", "~> 2.1"
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
