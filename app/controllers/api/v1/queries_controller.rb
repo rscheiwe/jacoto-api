@@ -2,6 +2,7 @@ module Api
   module V1
 
     class QueriesController < ApplicationController
+      skip_before_action :authorized, only: %i[create]
 
       def create
         if params[:searchTerm]

@@ -2,6 +2,7 @@ module Api
   module V1
 
     class CoursesController < ApplicationController
+      skip_before_action :authorized, only: [:index, :show]
 
       def index
         render json: Course.all
