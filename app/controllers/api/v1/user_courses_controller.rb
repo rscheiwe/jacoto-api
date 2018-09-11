@@ -14,7 +14,7 @@ class Api::V1::UserCoursesController < ApplicationController
       render json: @user_course.course.course_json, status: :accepted
     else
       UserCourse.find_by(user_course_params).destroy
-      render json: {error: 'removed course from favorites'}, status: :not_accepted
+      render json: {error: 'removed course from favorites', data: user_course_params}, status: :not_accepted
     end
   end
 
