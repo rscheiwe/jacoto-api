@@ -15,4 +15,13 @@ class User < ApplicationRecord
     }
   end
 
+  def login_to_json
+    {
+      id: self.id,
+      courses: self.courses,
+      avatar: self.avatar,
+      bio: self.bio
+    }
+  end
+
 end
