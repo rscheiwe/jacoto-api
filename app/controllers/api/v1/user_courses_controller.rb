@@ -13,13 +13,14 @@ class Api::V1::UserCoursesController < ApplicationController
       # byebug
       render json: @user_course.course.course_json, status: :accepted
     else
-      render json: {error: 'course already added' }, status: :not_accepted
+      UserCourse.find_by(user_course_params).destroy
+      render json: {error: 'removed course from favorites'}, status: :not_accepted
     end
   end
 
   private
 
   def user_course_params
-    params.require(:user_course).permit(:user_id, :course_id)
+    params.require(:user_course).permit(:id, :user_id, :course_id)
   end
 end
