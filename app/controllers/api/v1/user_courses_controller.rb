@@ -6,7 +6,6 @@ class Api::V1::UserCoursesController < ApplicationController
   # end
 
   def create
-
     # @user_course = UserCourse.new(user_course_params)
     @user_course = UserCourse.create(user_course_params)
     if @user_course.valid?
