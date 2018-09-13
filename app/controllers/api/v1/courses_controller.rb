@@ -5,7 +5,7 @@ module Api
       skip_before_action :authorized, only: [:index, :show]
 
       def index
-        render json: Course.all
+        render json: Course.all.sample(15)
       end
 
       def show
