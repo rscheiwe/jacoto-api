@@ -1,6 +1,6 @@
 
 require 'csv'
-csv_text = File.read(Rails.root.join('db', './test_for_migrating.csv'))
+csv_text = File.read(Rails.root.join('db', './data_dump_final.csv'))
 csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
 csv.each do |row|
   # byebug
