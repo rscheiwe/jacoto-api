@@ -19,6 +19,7 @@ csv.each do |row|
   c.tags = row['tags']
   c.tracks = row['tracks']
   c.level = row['level']
+  c.provider = row['provider']
 
   if c.valid?
     c.save
