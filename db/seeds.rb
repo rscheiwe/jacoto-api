@@ -10,7 +10,7 @@ csv.each do |row|
 
   c = Course.new
 
-  c.title = row[@title]
+  c.title = row['title']
   c.image = row['image']
   c.summary = row['summary']
   c.slug = row['slug']
