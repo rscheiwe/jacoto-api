@@ -8,6 +8,7 @@ class User < ApplicationRecord
     {
       user: {
         id: self.id,
+        username: self.username,
         courses: self.courses,
         avatar: self.avatar,
         bio: self.bio
