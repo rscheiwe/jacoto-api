@@ -4,4 +4,4 @@
 
 A demo may be found [here](http://richardscheiwe.com/demos), or simply go to [Jacoto's homepage](http://jacoto.herokuapp.com).
 
-For a technical explanation behind the project and a full README, please visit the frontend repository [here](https://github.com/rscheiwe/jacoto-frontend.
+For a technical explanation behind the project and a full README, please visit the frontend repository [here](https://github.com/rscheiwe/jacoto-frontend).
